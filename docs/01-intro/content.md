@@ -1,0 +1,127 @@
+### Programação Orientada a Objetos
+#### Introdução
+--- 
+
+### Apresentação
+
+-  Bruno Silva <bruno.silva@ect.ufrn.br>
+
+- Horários de atendimento (Discord):
+ - segunda: 15h-16h
+ - quarta:  15h-16h
+---
+
+### Objetivos
+
+Ao finalizar o curso os estudantes poderão:
+ - Identificar os _conceitos fundamentais_ do paradigma de programação orientado a objetos
+ - Utilizar apropriadamente as técnicas de _modelagem_ e _programação_ OO
+ - Desenvolver _aplicações_ utilizando o paradigma de POO
+
+---
+
+### Ferramentas
+
+ - Ênfase da disciplina: teoria de POO
+ - Entretanto: linguagem escolhida tem influência na aplicação dos conceitos
+ - Python é uma linguagem orientada a objetos de fácil aprendizado
+
+---
+
+### Ferramentas
+
+ - [Python 3.X](https://python.org/) (várias mudanças em relação à Python 2.X)
+ - IDES:  
+  - [Sublime](https://www.sublimetext.com/)
+  - [Atom](https://atom.io/) 
+  - [Visual Code](https://code.visualstudio.com/)
+  - [PyCharm](https://www.jetbrains.com/pt-br/pycharm)
+  - [vim](https://www.vim.org/)
+  - [Emacs](https://www.gnu.org/software/emacs/)
+ - [Jupyter Notebooks](https://jupyter.org/)
+
+---
+
+### Ferramentas
+
+ - Aulas no Google Meets
+  - Primeiros 2 horários: teoria
+  - Últimos 2 horários: prática
+  - Presença será feita durante as aulas e através da entrega dos exercícios
+ - Discord
+  - Discussões assíncronas
+  - Laboratório virtual
+   - Alunos podem se reunir em canais de áudio
+   - Perguntas podem ser feitas ao professor de forma privada
+
+---
+
+### Ementa da Disciplina
+
+_Pilares fundamentais_:
+
+ - Abstração
+ - Encapsulamento
+ - Herança
+ - Polimorfismo
+
+_Conceitos de Programação_:
+ - Erros e excepções 
+ - Estruturas de dados (listas, dicionários, etc)
+
+Todas as aulas programadas estão cadastradas no SIGAA
+
+---
+
+### Avaliação
+
+Avaliação continuada:
+ - Atividades avaliativas passadas semanalmente
+ - Unidades I e II:
+  - Tarefas (70%)
+  - "Prova" (30%):  mais uma tarefa (incluindo todos os conceitos)
+ - Unidade III:
+  - Projeto (70%)
+  - Tarefas (30%)
+
+--- 
+
+### Material bibliográfico
+
+- Livros online
+
+ - [How to Think Like a Computer Scientist](http://openbookproject.net/thinkcs/python/english3e/)
+ - [Object-Oriented Programming in Python](https://python-textbok.readthedocs.io/en/1.0/)
+ - [A Byte of Python](https://python.swaroopch.com/)
+
+- Tutoriais
+ - [Documentação de Python](https://www.python.org/doc/)
+ - [Real Python](https://realpython.com/)
+
+- Livros
+ - [Learning Python de Mark Lutz](https://www.amazon.com.br/dp/B00DDZPC9S/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
+ - [Python 3 Object Oriented Programming](https://www.amazon.com.br/dp/B005O9OFWQ/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
+
+--- 
+
+### Material bibliográfico
+
+- Cursos online
+ - [Python OOP : Four Pillars of OOP in Python 3 for Beginners](https://www.udemy.com/course/python-oops-beginners/)
+
+- Apostilas
+ - [Caelum](https://www.caelum.com.br/apostila/apostila-python-orientacao-a-objetos.pdf)
+ 
+---
+
+### Comparação com LIP
+
+Eu vou assumir que você domina os conceitos fundamentais de LiP (variáveis, estruturas de controle e funções).
+
+POO envolve mais teoria e por isso, aplicação prática de mais conceitos
+
+Maior nível de exigência quanto à proatividade do aluno
+
+---
+
+## Sejam bem-vindos!
