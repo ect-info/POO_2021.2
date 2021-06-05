@@ -55,17 +55,17 @@ Por que Python?
     3. Executar terminal Python
 - Instalação (Linux):
     1. Instalar pip:
-```shell
-sudo apt-get install python3-pip
-```
+       ```shell
+       sudo apt-get install python3-pip
+       ```
     2. Atualizar pip:
-```shell
-pip3 install --upgrade pip
-```
+       ```shell
+       pip3 install --upgrade pip
+       ```
     3. Instalar Jupyter Notebook via pip:
-```shell
-pip3 install jupyter
-```
+       ```shell
+       pip3 install jupyter
+       ```
 ---
 
 ## Terminal de comandos interativo
@@ -100,36 +100,35 @@ If the implementation is hard to explain, it's a bad idea.
 
  - Os tipos são determinados automaticamente
 
- ```python
+```python
  x = 4 
  type(x) # int
  s = "alo"
  type(s) # str
-
- ```
+```
 ---
 
 ## Diferenças de Python para C++
 
  - Indentação obrigatória: 
 
- ```python
- if x % 2 == 0:
+```python
+if x % 2 == 0:
     cont_par += 1 # Código indentado
 else:
     cont_impar += 1 # Código indentado
- ```
+```
 ---
 
 ## Diferenças de Python para C++
 
  - `;` não é necessário
 
- ```python
+```python
  i = 5
  i +=1
  print(i)
- ```
+```
 ---
 
 ## Diferenças de Python para C++
