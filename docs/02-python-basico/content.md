@@ -114,8 +114,10 @@ If the implementation is hard to explain, it's a bad idea.
  - Indentação obrigatória: 
 
  ```python
- def funcao(n):
-    return n+1 # Código indentado 
+ if x % 2 == 0:
+    cont_par += 1 # Código indentado
+else:
+    cont_impar += 1 # Código indentado
  ```
 ---
 
