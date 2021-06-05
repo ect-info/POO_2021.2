@@ -96,7 +96,7 @@ If the implementation is hard to explain, it's a bad idea.
 ```
 ---
 
-## Diferenças entre C++ e Python
+## Diferenças de Python para C++
 
  - Os tipos são determinados automaticamente
 
@@ -109,17 +109,17 @@ If the implementation is hard to explain, it's a bad idea.
  ```
 ---
 
-## Diferenças entre C++ e Python
+## Diferenças de Python para C++
 
  - Indentação obrigatória: 
 
  ```python
  def f(n):
-   return n+1 # Código indentado 
+    return n+1 # Código indentado 
  ```
 ---
 
-## Diferenças entre C++ e Python
+## Diferenças de Python para C++
 
  - `;` não é necessário
 
@@ -130,18 +130,18 @@ If the implementation is hard to explain, it's a bad idea.
  ```
 ---
 
-## Diferenças entre C++ e Python
+## Diferenças de Python para C++
 
  - Laços for
 
 ```cpp
 for(int i=0 ; i < n ; i++)
-   cout << i << endl ;
+    cout << i << endl ;
 ```
 
 ```python
 for i in range(0,n): # até n-1
-   print(i)
+    print(i)
 ```
 ---
 
