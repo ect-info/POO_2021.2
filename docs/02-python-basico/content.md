@@ -51,7 +51,9 @@ Por que Python?
 
 Instalação (Windows e Linux):
 
-1. Baixar a distribuição [Anaconda](https://repo.anaconda.com/archive/Anaconda3-2020.11-Windows-x86.exe) para Python
+1. Baixar a distribuição Anaconda para Python
+    - [Windows](https://repo.anaconda.com/archive/Anaconda3-2020.11-Windows-x86.exe)
+    - [Linux](https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh)
 2. Instalar a distribuição
 3. Executar terminal Python
 
