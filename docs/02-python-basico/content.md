@@ -53,19 +53,14 @@ Por que Python?
     1. Baixar a distribuição [Anaconda](https://repo.anaconda.com/archive/Anaconda3-2020.11-Windows-x86.exe) para Python
     2. Instalar a distribuição
     3. Executar terminal Python
+    
 - Instalação (Linux):
-    1. Instalar pip:
-       ```shell
-       sudo apt-get install python3-pip
-       ```
-    2. Atualizar pip:
-       ```shell
-       pip3 install --upgrade pip
-       ```
-    3. Instalar Jupyter Notebook via pip:
-       ```shell
-       pip3 install jupyter
-       ```
+
+    ```shell
+    sudo apt-get install python3-pip # instalar pip
+    pip3 install --upgrade pip # atualiza pip
+    pip3 install jupyter # instala Jupyter Notebook via pip
+    ```
 ---
 
 ## Terminal de comandos interativo
