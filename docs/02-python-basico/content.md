@@ -55,23 +55,17 @@ Por que Python?
     3. Executar terminal Python
 - Instalação (Linux):
     1. Instalar pip:
-       
-       ```shell
-       sudo apt-get install python3-pip
-       ```
-
+    ```shell
+    sudo apt-get install python3-pip
+    ```
     2. Atualizar pip:
-       
-       ```shell
-       pip3 install --upgrade pip
-       ```
-
+    ```shell
+    pip3 install --upgrade pip
+    ```
     3. Instalar Jupyter Notebook via pip:
-       
-       ```shell
-       pip3 install jupyter
-       ```
-
+    ```shell
+    pip3 install jupyter
+    ```
 ---
 
 ## Terminal de comandos interativo
