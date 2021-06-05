@@ -49,18 +49,12 @@ Por que Python?
 
 ## A Linguagem Python
 
-- Instalação (Windows):
-    1. Baixar a distribuição [Anaconda](https://repo.anaconda.com/archive/Anaconda3-2020.11-Windows-x86.exe) para Python
-    2. Instalar a distribuição
-    3. Executar terminal Python
+Instalação (Windows e Linux):
 
-- Instalação (Linux):
+1. Baixar a distribuição [Anaconda](https://repo.anaconda.com/archive/Anaconda3-2020.11-Windows-x86.exe) para Python
+2. Instalar a distribuição
+3. Executar terminal Python
 
-```shell
-sudo apt-get install python3-pip # instalar pip
-pip3 install --upgrade pip # atualiza pip
-pip3 install jupyter # instala Jupyter Notebook via pip
-```
 ---
 
 ## Terminal de comandos interativo
