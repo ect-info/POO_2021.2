@@ -25,7 +25,7 @@ Anotações e exercícios da aula (Jupyter notebook) [02-Python-Basico.ipynb](./
 
 Anotações e exercícios da aula (Jupyter notebook) [03-Classes-Objetos.ipynb](./03-classes-objetos/03-Classes-Objetos.ipynb)
 
-## [04 - 14/06 - Encapsulamento](./04-encapsulamento/)
+## [04 - 21/06 - Encapsulamento](./04-encapsulamento/)
  - Encapsulamento
  - Modificadores de acesso
  - Pilar de POO 2: encapsulamento
@@ -33,3 +33,10 @@ Anotações e exercícios da aula (Jupyter notebook) [03-Classes-Objetos.ipynb](
     - Decorador `@property`
 
 Anotações e exercícios da aula (Jupyter notebook) [04-Encapsulamento.ipynb](./04-encapsulamento/04-Encapsulamento.ipynb)
+
+## [05 - 21/06 - Estruturas de Dados Python](./05-biblioteca-padrao)
+ - Listas
+ - Tuplas
+ - Dicionários
+
+Anotações e exercícios da aula (Jupyter notebook) [05-Biblioteca-Padrao.ipynb](./05-biblioteca-padrao/05-Biblioteca-Padrao.ipynb)
