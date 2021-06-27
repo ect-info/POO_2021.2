@@ -40,3 +40,12 @@ Anotações e exercícios da aula (Jupyter notebook) [04-Encapsulamento.ipynb](.
  - Dicionários
 
 Anotações e exercícios da aula (Jupyter notebook) [05-Biblioteca-Padrao.ipynb](./05-biblioteca-padrao/05-Biblioteca-Padrao.ipynb)
+
+## [06 - 28/06 - Relacionamentos entre Classes](./06-relacoes)
+ - Notação UML
+ - Relações entre classe
+    - Associação
+    - Agregação
+    - Composição
+
+Anotações e exercícios da aula (Jupyter notebook) [06-Relacoes.ipynb](./06-relacoes/06-Relacoes.ipynb)
