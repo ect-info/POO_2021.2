@@ -51,3 +51,9 @@ Anotações e exercícios da aula (Jupyter notebook) [05-Biblioteca-Padrao.ipynb
 Anotações e exercícios da aula (Jupyter notebook) [06-Relacoes.ipynb](./06-relacoes/06-Relacoes.ipynb)
 
 ## [07 - 05/07 - Prova - Unidade 1 (Jupyter notebook)](./07-prova1/poo_2021.1_p1.ipynb)
+
+## [08 - 12/07 - Métodos/Atributos de classe e Herança](./08-heranca)
+ - Métodos e atributos de classe
+ - Pilar de POO 3: Herança
+
+Anotações e exercícios da aula (Jupyter notebook) [08-Heranca.ipynb](./08-heranca/08-Heranca.ipynb)
