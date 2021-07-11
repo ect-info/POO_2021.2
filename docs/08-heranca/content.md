@@ -92,7 +92,7 @@ class A:
 
 ### UML: Herança
 
-<img src="./img/heranca.png" width=200 />
+<img src="./img/heranca.png" width=500 />
 
 - Relação do tipo "_é um_": "um objeto B __é um objeto__ A"
 - Classe B __herda__ o comportamento (atributos e métodos) da classe A
