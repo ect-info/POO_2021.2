@@ -57,3 +57,9 @@ Anotações e exercícios da aula (Jupyter notebook) [06-Relacoes.ipynb](./06-re
  - Pilar de POO 3: Herança
 
 Anotações e exercícios da aula (Jupyter notebook) [08-Heranca.ipynb](./08-heranca/08-Heranca.ipynb)
+
+## [09 - 19/07 - Classes abstratas](./09-classes-abstratas)
+ - Classes abstratas
+ - Métodos abstratos
+
+Anotações e exercícios da aula (Jupyter notebook) [09-Classes-Abstratas.ipynb](./09-classes-abstratas/09-Classes-Abstratas.ipynb)
