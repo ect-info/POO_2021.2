@@ -26,7 +26,7 @@ Nesta aula veremos:
 
 - *Poli*: muitos, *morfismo*: formas
 - Mais um recurso utilizado para promover a reutilização de código
-- Uma mesma mensagem pode executar _diferentes_ métodos/código
+- Uma mesma mensagem pode resultar em _diferentes_ comportamentos
 ---
 
 ### Polimorfismo em Linguagens Tipadas (Java)
@@ -130,7 +130,7 @@ diferentes assinaturas:
 def funcao(x):
  ...
 
-def funcao(x,y):  # a definição anterior de f já não existe mais
+def funcao(x,y):  # a definição anterior de f é substituída por esta
  ...
 
 f(4) # Erro! 2 parâmetros são esperados
@@ -159,7 +159,7 @@ print(p.compara_idades(a)) # método funciona pq um Aluno é uma Pessoa
 
 ### Polimorfismo
 
-- Capacidade de um objeto de ser referenciado de várias formas
+- Capacidade de um objeto de ser utilizado de várias formas
 - A chamada dos métodos é polimórfica: a mesma chamada pode se comportar
   de diferentes formas, de acordo com o tipo dos objetos envolvidos
 ---
