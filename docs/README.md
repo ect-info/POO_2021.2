@@ -71,3 +71,8 @@ Anotações e exercícios da aula (Jupyter notebook) [09-Classes-Abstratas.ipynb
 Anotações e exercícios da aula (Jupyter notebook) [10-Polimorfismo.ipynb](./10-polimorfismo/10-Polimorfismo.ipynb)
 
 ## [11 - 02/08 - Prova - Unidade 2 (Jupyter notebook)](./11-prova2/poo_2021.1_p2.ipynb)
+
+## [12 - 09/08 - Herança Múltipla](./12-heranca-multipla)
+ - Herança múltipla
+ - Problema do diamante
+ - *Method resolution order* (MRO)
