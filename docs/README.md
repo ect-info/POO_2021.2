@@ -76,3 +76,5 @@ Anotações e exercícios da aula (Jupyter notebook) [10-Polimorfismo.ipynb](./1
  - Herança múltipla
  - Problema do diamante
  - *Method resolution order* (MRO)
+
+ Anotações e exercícios da aula (Jupyter notebook) [12-Heranca-Multipla.ipynb](./12-heranca-multipla/12-Heranca-Multipla.ipynb)
