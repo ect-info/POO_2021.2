@@ -79,9 +79,12 @@ Anotações e exercícios da aula (Jupyter notebook) [10-Polimorfismo.ipynb](./1
 
  Anotações e exercícios da aula (Jupyter notebook) [12-Heranca-Multipla.ipynb](./12-heranca-multipla/12-Heranca-Multipla.ipynb)
 
-## [13 - 16/08 - Erros e Exceções](./13a-excecoes)
+## [13a - 16/08 - Erros e Exceções](./13a-excecoes)
  - Erros e exceções
  - Tratamento de erros
  - Definição de exceções
 
 Anotações e exercícios da aula (Jupyter notebook) [13a-Excecoes.ipynb](./13a-excecoes/13a-Excecoes.ipynb)
+
+## [13b - 16/08 - Arquivos (Jupyter notebook)](./13b-arquivos/13b-Arquivos.ipynb)
+ - **Prática EaD** a ser entregue até as 23:59 do dia 22/08
