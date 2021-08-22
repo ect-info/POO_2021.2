@@ -88,3 +88,12 @@ Anotações e exercícios da aula (Jupyter notebook) [13a-Excecoes.ipynb](./13a-
 
 ## [13b - 16/08 - Arquivos (Jupyter notebook)](./13b-arquivos/13b-Arquivos.ipynb)
  - **Prática EaD** a ser entregue até as 23:59 do dia 22/08
+
+## [14a - 23/08 - Interfaces Gráficas](./14a-gui)
+- Interfaces gráficas em Python com Tkinter
+- Componentes (widgets):
+- *label*
+- *frame*
+- *entry*
+- *button*
+- *listbox*
