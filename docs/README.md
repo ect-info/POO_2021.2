@@ -97,3 +97,5 @@ Anotações e exercícios da aula (Jupyter notebook) [13a-Excecoes.ipynb](./13a-
 - *entry*
 - *button*
 - *listbox*
+
+Anotações e exercícios da aula (Jupyter notebook) [14a-GUI.ipynb](./14a-gui/14a-GUI.ipynb)
