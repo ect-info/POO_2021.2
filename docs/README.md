@@ -99,3 +99,6 @@ Anotações e exercícios da aula (Jupyter notebook) [13a-Excecoes.ipynb](./13a-
 - *listbox*
 
 Anotações e exercícios da aula (Jupyter notebook) [14a-GUI.ipynb](./14a-gui/14a-GUI.ipynb)
+
+## [14b - 23/08 - Padrão de Projeto MVC (Jupyter notebook)](./14b-mvc/14b-MVC.ipynb)
+ - **Prática EaD** a ser entregue até as 23:59 do dia 29/08
