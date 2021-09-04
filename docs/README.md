@@ -105,3 +105,6 @@ Anotações e exercícios da aula (Jupyter notebook) [14a-GUI.ipynb](./14a-gui/1
 
 ## [15 - 29/08 - Projeto Final 1(Jupyter notebook)](./15-projeto_final1/15-Projeto_Final_parte1.ipynb)
 - Implementação do projeto final -- parte 1
+
+## [16 - 06/09 - Projeto Final 2(Jupyter notebook)](./16-projeto_final2/16-Projeto_Final_parte2.ipynb)
+- Implementação do projeto final -- parte 2
