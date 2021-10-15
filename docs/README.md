@@ -2,13 +2,14 @@
 
 ## Bruno Silva <bruno.silva@ect.ufrn.br>
 
-Este diretório contém os slides das aulas do semestre 2021.1 (thanks <https://revealjs.com/>!)
+Este diretório contém os slides das aulas do semestre 2021.2
 
-## [01 - 07/06 - Introdução](./01-intro)
+## [01 - 18/10 - Introdução](./01-intro)
  - Objetivos
  - Metodologia
  - Bibliografia
 
+<!--
 ## [02 - 07/06 - Python Básico](./02-python-basico)
  - Variáveis e tipos
  - Operadores e expressões
@@ -108,3 +109,5 @@ Anotações e exercícios da aula (Jupyter notebook) [14a-GUI.ipynb](./14a-gui/1
 
 ## [16 - 06/09 - Projeto Final 2(Jupyter notebook)](./16-projeto_final2/16-Projeto_Final_parte2.ipynb)
 - Implementação do projeto final -- parte 2
+
+-->
