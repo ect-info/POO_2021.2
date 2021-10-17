@@ -13,9 +13,10 @@
 ### Objetivos
 
 Ao finalizar o curso os estudantes poderão:
-    - Identificar os _conceitos fundamentais_ do paradigma de programação orientado a objetos
-    - Utilizar apropriadamente as técnicas de _modelagem_ e _programação_ OO
-    - Desenvolver _aplicações_ utilizando o paradigma de POO
+    
+- Identificar os _conceitos fundamentais_ do paradigma de programação orientado a objetos
+- Utilizar apropriadamente as técnicas de _modelagem_ e _programação_ OO
+- Desenvolver _aplicações_ utilizando o paradigma de POO
 
 ---
 
@@ -58,11 +59,10 @@ Ao finalizar o curso os estudantes poderão:
 ### Ementa da Disciplina
 
 _Pilares fundamentais_:
-
-    - Abstração
-    - Encapsulamento
-    - Herança
-    - Polimorfismo
+- Abstração
+- Encapsulamento
+- Herança
+- Polimorfismo
 
 _Conceitos de Programação_:
     - Erros e excepções 
@@ -88,7 +88,6 @@ Avaliação continuada:
 ### Material bibliográfico
 
 - Livros online
-
     - [How to Think Like a Computer Scientist](http://openbookproject.net/thinkcs/python/english3e/)
     - [Object-Oriented Programming in Python](https://python-textbok.readthedocs.io/en/1.0/)
     - [A Byte of Python](https://python.swaroopch.com/)
@@ -128,8 +127,8 @@ Maior nível de exigência quanto à proatividade do aluno
 ## Por ora...
 
 Vamos instalar a distribuição Anaconda:
-    - [Windows](https://repo.anaconda.com/archive/Anaconda3-2020.11-Windows-x86.exe)
-    - [Linux](https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh)
+- [Windows](https://repo.anaconda.com/archive/Anaconda3-2020.11-Windows-x86.exe)
+- [Linux](https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh)
 
 Em seguida, verifique se o terminal Python está
 funcionando no seu computador
