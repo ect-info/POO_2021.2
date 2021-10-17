@@ -65,8 +65,8 @@ _Pilares fundamentais_:
 - Polimorfismo
 
 _Conceitos de Programação_:
-    - Erros e excepções 
-    - Estruturas de dados (listas, dicionários, etc)
+- Erros e excepções 
+- Estruturas de dados (listas, dicionários, etc)
 
 Todas as aulas programadas estão cadastradas no SIGAA
 
@@ -122,9 +122,7 @@ Maior nível de exigência quanto à proatividade do aluno
 
 ---
 
-## Sejam bem-vindos!
-
-## Por ora...
+## Sejam bem-vindos! Mas por ora...
 
 Vamos instalar a distribuição Anaconda:
 - [Windows](https://repo.anaconda.com/archive/Anaconda3-2020.11-Windows-x86.exe)
