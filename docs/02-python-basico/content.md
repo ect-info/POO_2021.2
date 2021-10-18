@@ -5,11 +5,11 @@
 ### Objetivos
 
 O objetivo da aula é introduzir comandos básicos em Python:
- - Terminal interativo de comandos
- - Variáveis e tipos
- - Operadores e expressões
- - Entrada e saída
- - Controle de fluxo (`if`, `while`, `for`)
+- Terminal interativo de comandos
+- Variáveis e tipos
+- Operadores e expressões
+- Entrada e saída
+- Controle de fluxo (`if`, `while`, `for`)
  ---
 
 ## A Linguagem Python
@@ -29,7 +29,6 @@ O objetivo da aula é introduzir comandos básicos em Python:
 ## A Linguagem Python
 
 Por que Python?
-
 - Simplicidade
 - Facilidade de aprendizado e de correção de erros
 - Código limpo
@@ -41,10 +40,10 @@ Por que Python?
 
 - É uma linguagem interpretada
 - Suporta um terminal de comandos interativo
-- Qualquer comando da linguagem pode ser executado
-    - Agiliza a programação
-    - Facilita a depuração de erros
-    - Visualiza ajuda das funções/classes declaradas
+    - Qualquer comando da linguagem pode ser executado
+        - Agiliza a programação
+        - Facilita a depuração de erros
+        - Visualiza ajuda das funções/classes declaradas
 ---
 
 ## A Linguagem Python
@@ -136,6 +135,23 @@ for i in range(0,n): # até n-1
     print(i)
 ```
 ---
+
+## Diferenças de Python para C++
+
+- Erros que não sejam de sintaxe só são
+reconhecidos se o código for executado
+
+```python
+x = 50
+y = 100
+
+if x % 2 == 0:
+    print('x é par')
+    print(y)
+else:
+    print('x não é par')
+    print(z) # z não foi declarado
+```
 
 ## Jupyter Notebook
 

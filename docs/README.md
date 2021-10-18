@@ -9,8 +9,7 @@ Este diretório contém os slides das aulas do semestre 2021.2
  - Metodologia
  - Bibliografia
 
-<!--
-## [02 - 07/06 - Python Básico](./02-python-basico)
+## [02 - 20/10 - Python Básico](./02-python-basico)
  - Variáveis e tipos
  - Operadores e expressões
  - Entrada e saída
@@ -18,6 +17,7 @@ Este diretório contém os slides das aulas do semestre 2021.2
 
 Anotações e exercícios da aula (Jupyter notebook) [02-Python-Basico.ipynb](./02-python-basico/02-Python-Basico.ipynb)
 
+<!--
 ## [03 - 14/06 - Classes, objetos e abstração](./03-classes-objetos/)
  - Classes, atributos e métodos
  - Objetos
