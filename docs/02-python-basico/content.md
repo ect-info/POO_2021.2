@@ -152,6 +152,7 @@ else:
     print('x não é par')
     print(z) # z não foi declarado
 ```
+---
 
 ## Jupyter Notebook
 
