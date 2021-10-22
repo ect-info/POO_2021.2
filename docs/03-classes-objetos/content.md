@@ -17,7 +17,7 @@ Considere um carro:
  2. Que coisas pode "fazer" um carro ?
  3. Todos os carros alcançam a mesma velocidade ?
 
- <img src="img/carros.jpg" width=250/>
+ <img src="img/carros.jpg" width=400/>
 
  Foto: [Revista carro](https://revistacarro.com.br/)
 ---
@@ -62,7 +62,7 @@ O _estado_ está definido pelos valores dos _atributos_.
 <table>
 <tr>
 <td>
-<img src="img/carros2.jpg" width=250/>
+<img src="img/carros2.jpg" width=400/>
 <td>
 
 ```cpp
