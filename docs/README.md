@@ -17,8 +17,7 @@ Este diretório contém os slides das aulas do semestre 2021.2
 
 Anotações e exercícios da aula (Jupyter notebook) [02-Python-Basico.ipynb](./02-python-basico/02-Python-Basico.ipynb)
 
-<!--
-## [03 - 14/06 - Classes, objetos e abstração](./03-classes-objetos/)
+## [03 - 25/10 - Classes, objetos e abstração](./03-classes-objetos/)
  - Classes, atributos e métodos
  - Objetos
  - Classes em Python
@@ -26,6 +25,7 @@ Anotações e exercícios da aula (Jupyter notebook) [02-Python-Basico.ipynb](./
 
 Anotações e exercícios da aula (Jupyter notebook) [03-Classes-Objetos.ipynb](./03-classes-objetos/03-Classes-Objetos.ipynb)
 
+<!--
 ## [04 - 21/06 - Encapsulamento](./04-encapsulamento/)
  - Encapsulamento
  - Modificadores de acesso

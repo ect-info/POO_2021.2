@@ -17,7 +17,7 @@ Considere um carro:
  2. Que coisas pode "fazer" um carro ?
  3. Todos os carros alcançam a mesma velocidade ?
 
- <img src="img/carros.jpg" width=350/>
+ <img src="img/carros.jpg" width=250/>
 
  Foto: [Revista carro](https://revistacarro.com.br/)
 ---
@@ -62,7 +62,7 @@ O _estado_ está definido pelos valores dos _atributos_.
 <table>
 <tr>
 <td>
-<img src="img/carros2.jpg" width=450/>
+<img src="img/carros2.jpg" width=250/>
 <td>
 
 ```cpp
@@ -93,7 +93,7 @@ Entretanto, o tipo Circulo definido como _struct_:
 - É utilizado apenas para armazenar dados
 - Não tem um _comportamento_ definido
 
-Solução: Classes!
+Para isto, existem _Classes_!
 ---
 
 ### Classes em Python
@@ -106,24 +106,24 @@ Solução: Classes!
 < class 'str' >
 ```
 
->> Variáveis possuem _tipos_ $\equiv$ objetos possuem _classes_
+>> Variáveis possuem _tipos_ == objetos possuem _classes_
 ---
 
 ### Programação Orientada a Objetos
 Programar orientado a objetos envolve:
 
-- Identificar _classes_ que agrupam objetos com um comportamento comum.
-- Identificar os __atributos__ que deve armazenar cada objeto.
-- Identificar como os objetos devem *se comportar*.
-- Identificar como devem *interagir* os objetos do sistema.
+- Identificar _classes_ que agrupam objetos com um comportamento comum
+- Identificar os __atributos__ que cada objeto deve armazenar
+- Identificar como os objetos devem *se comportar*
+- Identificar como os objetos do sistema devem *interagir* entre eles
 --- 
 
 ### Primeiro pilar de POO: Abstração
 
 _Abstração:_ escolher os aspetos _mais relevantes_ para representar uma entidade do mundo real.
 
- - __Simplicidade__: atributos irrelevantes devem ser ignorados.
- - Dividir e conquistar: o propósito de uma classe deve estar bem definido.
+ - __Simplicidade__: atributos irrelevantes devem ser ignorados
+ - Dividir e conquistar: o propósito de uma classe deve estar bem definido
 --- 
 
 ### Primeiro pilar de POO: Abstração
