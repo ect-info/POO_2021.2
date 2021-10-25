@@ -27,17 +27,18 @@ Encapsulam um _estado_
 
 Nesta aula aprenderemos:
   - _Encapsulamento_: __segundo pilar__ de POO
-  - Setters/getters e `@property` (nosso primeiro decorador) em Python
+  - Setters/getters e `@property`: primeiro decorador em Python
 ---
 
 ### Encapsulamento
 
 > Capacidade de esconder informações (dados) nos objetos
 
-- __Proteger__ o acesso direto aos atributos de um objeto
-- Os membros que não devem ser usados fora da classe devem estar *escondidos*
+- __Proteger__ o acesso (externo à classe) a alguns atributos de um objeto
+    - Membros que não devem ser usados fora da classe devem estar *escondidos*
+      de quem irá utilizar a classe
 - As classes devem __expôr o mínimo necessário__ para serem utilizadas
--  Similar a funções: os dados mínimos que elas precisam são os parâmetros
+    -  Similar a funções: os dados mínimos que elas precisam são os parâmetros
 ---
 
 ### Encapsulamento
@@ -54,9 +55,12 @@ Nesta aula aprenderemos:
 
 Os __modificadores de acesso__ valem para atributos e métodos:
 
-- __Público__:  o membro/método pode ser acessado/chamado de qualquer lugar
-- __Privado__: o membro/método só pode ser acessado/chamado  dentro da definição da classe
-- __Protegido__: o membro/método pode ser utilizado pelas subclasses. 
+- __Público__:  o membro/método pode ser acessado/chamado de dentro ou
+  fora da classe
+- __Privado__: o membro/método só pode ser acessado/chamado de dentro da
+  classe; ele não é herdado pelas subclasses
+- __Protegido__: o membro/método só pode ser acessado/chamado de dentro da
+  classe; ele é herdado pelas subclasses
 
 > A implementação dos modificadores é um mecanismo dependente da linguagem. Em C++ e
 Java, por exemplo, as palavras chaves `public` e `private` devem ser usadas
@@ -79,11 +83,11 @@ public class Pessoa{
 }
 ```
 
-Em Python... é um pouco diferente. 
+Já em Python, não é assim que funciona... 
 ---
 
 ### Exemplo: Estacionamento
-- Um estacionamento tem capacidade para um número $n>0$ de vagas. 
+- Um estacionamento tem capacidade para um número n > 0 de vagas. 
 - Devemos controlar quantos carros estão dentro do estacionamento. 
 - Os carros podem entrar só se há vagas disponíveis.
 
@@ -96,18 +100,18 @@ Nesse sistema podemos identificar:
 ### Exemplo: Estacionamento
 Os usuários da classe `Estacionamento` deveriam __modificar diretamente__  o atributo `vagas`? 
 
-*Não!*   O valor do atributo _vagas_ não pode ser modificado direitamente (só utilizando os método `entrar`/`sair`).
+*Não!*   O valor do atributo _vagas_ não deve ser modificado diretamente (isto
+deve ser feito utilizando os método `entrar`/`sair`).
 ---
 
 ### Encapsulamento
-- *Esconder* os membros de uma classe.
-- *Esconder* como funcionam as rotinas (métodos) da classe.
-- O encapsulamento facilita o *reaproveitamento* de código.
-- Alterações no código ficam mais simples.
-- Os usuários da classe só podem acessar os atributos/métodos *públicos* da classe.
-- Busca garantir a *consistência* (do estado) dos objetos
+Utilizado para:
+- *Esconder* os membros de uma classe
+- *Esconder* como funcionam as rotinas (métodos) da classe
+- *Facilitar o reaproveitamento* de código
+- *Garantir a consistência* (do estado) dos objetos
 
-> As classes devem expor o mínimo necessário para serem utilizadas.
+> As classes devem expor o mínimo necessário para serem utilizadas
 ---
 
 ### Encapsulamento em Python
