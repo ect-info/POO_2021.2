@@ -55,11 +55,11 @@ Nesta aula aprenderemos:
 
 Os __modificadores de acesso__ valem para atributos e métodos:
 
-- __Público__:  o membro/método pode ser acessado/chamado de dentro ou
+- __Público__:  o atributo/método pode ser acessado/chamado de dentro ou
   fora da classe
-- __Privado__: o membro/método só pode ser acessado/chamado de dentro da
+- __Privado__: o atributo/método só pode ser acessado/chamado de dentro da
   classe; ele não é herdado pelas subclasses
-- __Protegido__: o membro/método só pode ser acessado/chamado de dentro da
+- __Protegido__: o atributo/método só pode ser acessado/chamado de dentro da
   classe; ele é herdado pelas subclasses
 
 > A implementação dos modificadores é um mecanismo dependente da linguagem. Em C++ e
@@ -83,7 +83,8 @@ public class Pessoa{
 }
 ```
 
-Já em Python, não é assim que funciona... 
+Em Python, não é assim que funciona. Mais sobre isto no
+notebook da aula. 
 ---
 
 ### Exemplo: Estacionamento
