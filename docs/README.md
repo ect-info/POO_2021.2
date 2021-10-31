@@ -34,14 +34,14 @@ Anotações e exercícios da aula (Jupyter notebook) [03-Classes-Objetos.ipynb](
 
 Anotações e exercícios da aula (Jupyter notebook) [04-Encapsulamento.ipynb](./04-encapsulamento/04-Encapsulamento.ipynb)
 
-<!--
-## [05 - 21/06 - Estruturas de Dados Python](./05-biblioteca-padrao)
+## [05 - 03/11 - Estruturas de Dados Python](./05-biblioteca-padrao)
  - Listas
  - Tuplas
  - Dicionários
 
 Anotações e exercícios da aula (Jupyter notebook) [05-Biblioteca-Padrao.ipynb](./05-biblioteca-padrao/05-Biblioteca-Padrao.ipynb)
 
+<!--
 ## [06 - 28/06 - Relacionamentos entre Classes](./06-relacoes)
  - Notação UML
  - Relações entre classe
