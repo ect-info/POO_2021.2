@@ -65,22 +65,25 @@ Objetivos desta aula:
 
 ### Diagrama de Classe UML
 
-Diagrama de classe da linguagem unificada de modelagem (UML)
-- Facilita a visão geral de sistemas maiores
-- Ferramenta: [Draw IO](https://www.draw.io/)
-
 <img src="./img/classe_pessoa1.png" width=250 />
 
-Blocos representam classes
+Blocos representam classes:
 - Parte superior: atributos
 - Parte inferior: métodos, com tipo de parâmetros e tipo de retorno
 - `-` denota um membro de classe _privado_
 - `+` denota um membro _público_
 ---
 
+### Diagrama de Classe UML
+
+Diagrama de classe da linguagem unificada de modelagem (UML)
+- Facilita a visão geral de sistemas maiores
+- Ferramenta: [Draw IO](https://www.draw.io/)
+---
+
 ### Relacionamentos de Associação 
 - Indicam algum _relacionamento_ significativo e de interesse entre objetos
-- Especificam que objetos de uma classe estão de alguma forma "ligados" a objetos de outras classes 
+- Especificam que objetos de uma classe estão de alguma forma associados a objetos de outras classes 
 
 Exemplos:
 - Em um `Estacionamento` estão _estacionados_ os `Carros`
@@ -207,7 +210,7 @@ Com composição:
 #### Agregação
 - Modela uma relação do tipo *tem um* fraca: um objeto da classe A *tem um* (ou mais) objeto da classe B
 - Objetos da classe A podem existir sem que objetos da classe B existam
-    - Observe que neste caso, o objeto da classe A pode não estar pronto para uso (estado incosistente)
+    - Observe que neste caso, o objeto da classe A pode não estar pronto para uso (estado inconsistente)
 ---
 
 ### Resumindo
