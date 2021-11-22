@@ -57,13 +57,13 @@ Arquivo auxiliar: [alo.py](./07-modulos/alo.py)
 
 ## [08 - 17/11 - Prova - Unidade 1 (Jupyter notebook)](./08-prova1/poo_2021.2_p1.ipynb)
 
-<!--
-
-## [08 - 12/07 - Métodos/Atributos de classe e Herança](./08-heranca)
+## [09 - 22/11 - Métodos/Atributos de classe e Herança](./09-heranca)
  - Métodos e atributos de classe
  - Pilar de POO 3: Herança
 
-Anotações e exercícios da aula (Jupyter notebook) [08-Heranca.ipynb](./08-heranca/08-Heranca.ipynb)
+Anotações e exercícios da aula (Jupyter notebook) [09-Heranca.ipynb](./09-heranca/09-Heranca.ipynb)
+
+<!--
 
 ## [09 - 19/07 - Classes abstratas](./09-classes-abstratas)
  - Classes abstratas
