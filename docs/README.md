@@ -63,6 +63,8 @@ Arquivo auxiliar: [alo.py](./07-modulos/alo.py)
 
 Anotações e exercícios da aula (Jupyter notebook) [09-Heranca.ipynb](./09-heranca/09-Heranca.ipynb)
 
+## [10 - 24/11 - Prática 2.1 (Jupyter notebook)](./10-heranca_pratica/Pratica_2.1.ipynb)
+
 <!--
 
 ## [09 - 19/07 - Classes abstratas](./09-classes-abstratas)
