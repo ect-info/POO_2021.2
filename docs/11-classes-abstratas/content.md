@@ -74,6 +74,6 @@ Os métodos abstratos também são indicados com fonte itálica.
 - Uma classe abstrata pode ter métodos abstratos e métodos implementados
 ---
 
-### Mais exemplos
+### Como Funciona na Prática
 [11-classes-abstratas](11-Classes-Abstratas.ipynb)
 ---
