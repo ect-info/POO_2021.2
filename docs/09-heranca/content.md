@@ -150,5 +150,5 @@ class A:
 ---
 
 ### Como Funciona na Prática
-[08-heranca](08-Heranca.ipynb)
+[09-heranca](09-Heranca.ipynb)
 ---

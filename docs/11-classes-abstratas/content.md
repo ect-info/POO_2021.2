@@ -34,8 +34,15 @@ Observe um possível diagrama do sistema de contas bancárias:
 
 - É uma classe que __não deve ser instanciada__
 - Define um _comportamento comum_ para outras classes derivadas
-- O código da classe abstrata pode  ser reutilizado/implementado por classes derivadas
 - Toda classe que não é abstrata é chamada classe **concreta**
+---
+
+### Classe Abstrata
+Classes abstratas são em geral utilizadas para:
+- Oferecer código para ser reutilizado por classes derivadas
+- Especificar uma interface pública a ser implementada por classes derivadas
+    - Quais métodos a classe derivada deve possuir
+    - Que parâmetros eles devem ter
 ---
 
 ### Método Abstrato
@@ -45,46 +52,9 @@ Observe um possível diagrama do sistema de contas bancárias:
 - Se a classe possui pelo menos um método abstrato, então ela é uma classe
   abstrata (não é possível instanciar objetos desta classe)
 - Em geral, um método abstrato não possui implementação
+    - Apenas especifica tipo de retorno e parâmetros
+      (igual à assinatura de uma função)
     - Em Python: podem possuir implementação
----
-
-## Classes Abstratas em Python
-
-Em Python, as classe abstratas herdam da classe ```ABC```
-(**A**bstract **B**ase **C**lass), do módulo ```abc``` e tem, pelo menos, um
-método abstrato (denotado com o decorador `@abstractmethod`):
-
-```python
-from abc import ABC, abstractmethod
-
-class A(ABC):
-    
-    '''Exemplo de uma classe abstrata'''
-    def __init__(self, v):
-        self._v = v
-
-    @abstractmethod
-    def m(self):
-        '''Método abstrato (sem implementação)'''
-        pass 
-```
----
-
-## Classes Abstratas em Python
-
-A classe `B` herda de `A` e provê um implementação para o método `m`:
-
-```python
-class B(A):
-    def __init__(self, v, v2):
-        super().__init__(v)
-        self.v2 = v2
-
-    def m(self):
-        '''Implementando o método abstrato'''
-        self.v2 += 1
-        return self.v2
-```
 ---
 
 ## Classe Abstrata - UML
@@ -105,5 +75,5 @@ Os métodos abstratos também são indicados com fonte itálica.
 ---
 
 ### Mais exemplos
-[09-classes-abstratas](09-Classes-Abstratas.ipynb)
+[11-classes-abstratas](11-Classes-Abstratas.ipynb)
 ---

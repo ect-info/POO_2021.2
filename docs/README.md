@@ -65,13 +65,13 @@ Anotações e exercícios da aula (Jupyter notebook) [09-Heranca.ipynb](./09-her
 
 ## [10 - 24/11 - Prática 2.1 (Jupyter notebook)](./10-heranca_pratica/Pratica_2.1.ipynb)
 
-<!--
-
-## [09 - 19/07 - Classes abstratas](./09-classes-abstratas)
+## [11 - 29/11 - Classes abstratas](./11-classes-abstratas)
  - Classes abstratas
  - Métodos abstratos
 
-Anotações e exercícios da aula (Jupyter notebook) [09-Classes-Abstratas.ipynb](./09-classes-abstratas/09-Classes-Abstratas.ipynb)
+Anotações e exercícios da aula (Jupyter notebook) [11-Classes-Abstratas.ipynb](./11-classes-abstratas/11-Classes-Abstratas.ipynb)
+
+<!--
 
 ## [10 - 26/07 - Polimorfismo](./10-polimorfismo)
  - Pilar de POO 4: Polimorfismo
