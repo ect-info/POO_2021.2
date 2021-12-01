@@ -71,6 +71,8 @@ Anotações e exercícios da aula (Jupyter notebook) [09-Heranca.ipynb](./09-her
 
 Anotações e exercícios da aula (Jupyter notebook) [11-Classes-Abstratas.ipynb](./11-classes-abstratas/11-Classes-Abstratas.ipynb)
 
+## [12 - 01/12 - Prática 2.2 (Jupyter notebook)](./12-classes-abstratas_pratica/Pratica_2.2.ipynb)
+
 <!--
 
 ## [10 - 26/07 - Polimorfismo](./10-polimorfismo)
