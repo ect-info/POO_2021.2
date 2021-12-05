@@ -26,7 +26,7 @@ Nesta aula veremos:
 
 - *Poli*: muitos, *morfismo*: formas
 - Mais um recurso utilizado para promover a reutilização de código
-- Uma mesma mensagem pode resultar em _diferentes_ comportamentos
+- Um mesmo código possui _diferentes_ comportamentos
 ---
 
 ### Polimorfismo em Linguagens Tipadas (Java)
@@ -170,8 +170,8 @@ print(p.compara_idades(a)) # método funciona pq um Aluno é uma Pessoa
 Barbara Liskov, cientista da computação estadunidense conhecida por criar o
 _Princípio de Substituição de Liskov_, por ser uma das primeiras mulheres a
 obter um PhD em Ciência da Computação nos Estados Unidos e por inventar o Tipo
-Abstrato de Dado (TAD)(tomada da
-[Wikipedia](https://pt.wikipedia.org/wiki/Barbara_Liskov)) 
+Abstrato de Dado (TAD)
+([Wikipedia](https://pt.wikipedia.org/wiki/Barbara_Liskov)) 
 ---
 
 ### O princípio da substituição de  Liskov
@@ -184,9 +184,9 @@ desenvolvimento da _programação orientada para objetos_.
 
 ### O princípio da substituição de  Liskov
 - *Uma classe base deve poder ser substituída pela sua classe derivada*
-- Considere o método ```q(x)```. Se ```q``` pode ser utilizado com objetos da
-  superclasse T, então ```q``` deve poder também ser invocado com um objeto de
-  uma subclasse ```S``` derivada de ```T```
+- Considere o método `q(x)`. Se `q` pode ser utilizado com objetos da
+  superclasse T, então `q` deve poder também ser chamado com um objeto de
+  uma subclasse `S` derivada de `T`
 ---
 
 ### Duck Typing
@@ -194,7 +194,7 @@ desenvolvimento da _programação orientada para objetos_.
 >Quando eu vejo um pássaro que anda como pato, nada como um pato
 e grasna como pato, então pra mim este pássaro é um pato
 
-- Fundamento base da linguagem Python
+- Princípio utilizado como base da linguagem Python
 - Lembre-se que Python possui tipagem dinâmica: o tipo dos objetos
   só pode ser determinado na execução  do programa
 ---
@@ -204,11 +204,8 @@ e grasna como pato, então pra mim este pássaro é um pato
 Forma de tipagem que está mais interessada no que o objeto possui como
 atributos/métodos do que se ele é de uma determinada classe
 
-*Duck typing* já foi utilizado diversas vezes:
+Exemplos de uso de *Duck typing*:
 
-- Quando usamos ```a + b```: não interessa os tipos de ```a``` e ```b```,
-  desde que as classes de ```a``` e ```b``` implementem o operador de soma
-  (método ```def __add__(self, outro):```)
 - Quando usamos ```print(a)```: não interessa o tipo de ```a```,
   o objeto vai ser impresso (e o método ```__str__``` é chamado)
 - Quando usamos ```a.liga()```: não interessa o tipo de ```a```, desde que
@@ -216,5 +213,5 @@ atributos/métodos do que se ele é de uma determinada classe
 ---
 
 ### Mais exemplos
-[10-polimorfismo](10-Polimorfismo.ipynb)
+[13-polimorfismo](13-Polimorfismo.ipynb)
 ---
