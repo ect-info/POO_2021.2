@@ -33,42 +33,7 @@ class Subclasse(Superclasse1, Superclasse2):
   e ```Superclasse2``` estão na subclasse
 
 --- 
-## Herança Múltipla
 
-Exemplo:
-
-```python
-class Superclasse1:
-    def metodo_super1(self): ...
-
-class Superclasse2:
-    def metodo_super2(self): ...
-
-class Subclasse(Superclasse1, Superclasse2):
-    def metodo_sub(self): ...
-
-obj = Subclasse()
-obj.metodo_super1()
-obj.metodo_super2()
-obj.metodo_sub()
-```
----
-## Herança Múltipla
-
-Os métodos __init__ de cada superclasse precisam ser explicitamente chamados
-
-```python
-class Subclasse(Superclasse1, Superclasse2): 
-  def __init__(self, valor):
-        Superclasse1.__init__(self, 0) # atribui 0 a atrib_super1
-        Superclasse2.__init__(self, 1) # atribui 1 a atrib_super2
-
-```
-
-- Também pode ser utilizada apenas uma única chamada com ```super().__init__()```
-  (mais sobre isto no Jupyter Notebook)
-
----
 ### Herança Múltipla
 
 As superclasses também podem ser classes abstratas
@@ -81,5 +46,8 @@ seja __concreta__
 
 ---
 
-Exemplos práticos no [Notebook](12-Heranca-Multipla.ipynb)
+### Herança Múltipla
+
+Exemplos práticos e problemas que podem acontecer com herança múltipla
+no [Notebook](17-Heranca-Multipla.ipynb)
 ---

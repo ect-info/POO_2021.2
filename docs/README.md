@@ -86,16 +86,14 @@ Anotações e exercícios da aula (Jupyter notebook) [13-Polimorfismo.ipynb](./1
 
 ## [16 - 15/12 - Prova - Unidade 2 (Jupyter notebook)](./16-prova2/poo_2021.2_p2.ipynb)
 
-<!--
-
-## [11 - 02/08 - Prova - Unidade 2 (Jupyter notebook)](./11-prova2/poo_2021.1_p2.ipynb)
-
-## [12 - 09/08 - Herança Múltipla](./12-heranca-multipla)
+## [17 - 10/01 - Herança Múltipla](./17-heranca-multipla)
  - Herança múltipla
  - Problema do diamante
  - *Method resolution order* (MRO)
 
- Anotações e exercícios da aula (Jupyter notebook) [12-Heranca-Multipla.ipynb](./12-heranca-multipla/12-Heranca-Multipla.ipynb)
+Anotações e exercícios da aula (Jupyter notebook) [17-Heranca-Multipla.ipynb](./17-heranca-multipla/17-Heranca-Multipla.ipynb)
+
+<!--
 
 ## [13a - 16/08 - Erros e Exceções](./13a-excecoes)
  - Erros e exceções
