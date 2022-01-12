@@ -93,6 +93,8 @@ Anotações e exercícios da aula (Jupyter notebook) [13-Polimorfismo.ipynb](./1
 
 Anotações e exercícios da aula (Jupyter notebook) [17-Heranca-Multipla.ipynb](./17-heranca-multipla/17-Heranca-Multipla.ipynb)
 
+## [18 - 12/01 - Prática 2.4 (Jupyter notebook)](./18-heranca-multipla_pratica/18-Heranca-Multipla_Pratica.ipynb)
+
 <!--
 
 ## [13a - 16/08 - Erros e Exceções](./13a-excecoes)
