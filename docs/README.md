@@ -95,14 +95,14 @@ Anotações e exercícios da aula (Jupyter notebook) [17-Heranca-Multipla.ipynb]
 
 ## [18 - 12/01 - Prática 2.4 (Jupyter notebook)](./18-heranca-multipla_pratica/18-Heranca-Multipla_Pratica.ipynb)
 
-<!--
-
-## [13a - 16/08 - Erros e Exceções](./13a-excecoes)
+## [19a - 17/01 - Erros e Exceções](./19a-excecoes)
  - Erros e exceções
  - Tratamento de erros
  - Definição de exceções
 
-Anotações e exercícios da aula (Jupyter notebook) [13a-Excecoes.ipynb](./13a-excecoes/13a-Excecoes.ipynb)
+Anotações e exercícios da aula (Jupyter notebook) [19a-Excecoes.ipynb](./19a-excecoes/19a-Excecoes.ipynb)
+
+<!--
 
 ## [13b - 16/08 - Arquivos (Jupyter notebook)](./13b-arquivos/13b-Arquivos.ipynb)
  - **Prática EaD** a ser entregue até as 23:59 do dia 22/08

@@ -29,7 +29,7 @@ def registraEntrada(self):
 
 ### Motivação
 
-- O programa _só imprime_ uma mensagem de erro
+- O programa _apenas imprime_ uma mensagem de erro
 - Entretanto, a execução do programa __continua__
 - Como fazer para o programa encerrar a sua execução?
 - Como __notificar__ de maneira clara que a execução do método não foi bem
@@ -78,7 +78,7 @@ Apresentar o mecanismo de tratamento de exceções
 - Uma _exceção_ é um __erro__ não necessariamente fatal detectável na execução de um programa
     - Diferente de erro de sintaxe
 - Para **levantar uma exceção**  utilizamos o comando `raise`
-    - `raise Exc`: levanta uma exceção do tipo/classe `Exc`
+    - `raise Exception`: levanta uma exceção da classe `Exception`
     - Similar ao comando `throw` de Java e C++
 - `Exception` é a _superclasse_ das exceções definidas pelo usuário
 - A lista de classes de exceções predefinidas em Python está
@@ -88,7 +88,7 @@ Apresentar o mecanismo de tratamento de exceções
 ### Exceções e Tratamento
 <img src="python_excecoes.png">
 
-- Imagem de [*Stanford Python Course* (link)](https://drive.google.com/file/d/0B-eHIhYpHrGDWUtObjZ5MDI0dHc/view)
+(Imagem de [*Stanford Python Course* (link)](https://drive.google.com/file/d/0B-eHIhYpHrGDWUtObjZ5MDI0dHc/view))
 ---
 
 ### Exemplo
@@ -118,7 +118,7 @@ c.deposito(0) # ValueError
 - Após levantada/lançada, uma exceção pode ser **tratada**
 - Tratamento de exceções: trecho de código responsável por fazer o programa se
   __recuperar__ da exceção detectada
-- De acordo com a _classe/tipo da exceção_, o programa pode tratá-la de forma diferente
+- De acordo com a _classe da exceção_, o programa pode tratá-la de forma diferente
 - Se a exceção não for tratada, o _tratamento padrão_ é executado:
   imprimir a mensagem de erro na tela e encerrar o programa
 ---
@@ -186,7 +186,12 @@ except:
 
 ### Implementando Classes para Exceções
 
-É possível definir classes para representar exceções personalizadas:
+- É possível definir classes para representar exceções do
+domínio do problema
+- Para isto, basta definir uma nova classe com o nome da
+exceção e fazê-la herdar de `Exception`
+- Como tudo que é necessário já está em `Exception`,
+o corpo da classe deve ser vazio
 
 ```
 class MinhaExcecao(Exception):
@@ -198,9 +203,8 @@ class MinhaExcecao(Exception):
 
 Uma boa prática é:
 
-- Definir uma classe base que herda de ```Exception``` para o seu programa
-- Definir erros específicos, que acontecem no domínio do problema em questão, utilizando
-  a classe base anterior como o topo da hierarquia (todos os erros herdam dela)
+- Definir uma classe de exceção quer será a exceção base para o seu programa
+- Definir erros específicos, que acontecem no domínio do problema em questão, utilizando a classe base anterior como o topo da hierarquia (todos os erros herdam dela)
 - Desta forma, exceções específicas ao domínio do problema podem ser capturadas
 ---
 
@@ -224,4 +228,7 @@ class Pessoa:
 ```
 ---
 
-[Jupyter notebook](./13a-Excecoes.ipynb)
+### Exceções
+
+Mais detalhes sobre exceções
+no [Notebook](19a-excecoes.ipynb)
