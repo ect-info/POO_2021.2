@@ -59,8 +59,6 @@ Você já deve ter se deparado com alguns erros em Python:
 
 - Uma variável inexistente é utilizada:
 > `NameError: name x is not defined`
-
-Ou seja, exceções levantadas por programas em Python
 ---
 
 ### Objetivo
@@ -91,71 +89,14 @@ Apresentar o mecanismo de tratamento de exceções
 (Imagem de [*Stanford Python Course* (link)](https://drive.google.com/file/d/0B-eHIhYpHrGDWUtObjZ5MDI0dHc/view))
 ---
 
-### Exemplo
-
-```
-class Conta:
-    def __init__(self):
-        self.__saldo = 0
-
-    def deposito(self, v):
-        '''Deposito: v > 0'''
-        if v <= 0:
-            raise ValueError("Valor de depósito não válido")
-        else:
-            self.__saldo += v
-
-c = Conta()
-c.deposito(3)
-c.deposito(5)
-c.deposito(0) # ValueError
-```
-`ValueError`: Tipo de exceção que denota valores de parâmetros não válidos 
---- 
-
 ### Tratamento de Exceções
 
 - Após levantada/lançada, uma exceção pode ser **tratada**
 - Tratamento de exceções: trecho de código responsável por fazer o programa se
   __recuperar__ da exceção detectada
 - De acordo com a _classe da exceção_, o programa pode tratá-la de forma diferente
-- Se a exceção não for tratada, o _tratamento padrão_ é executado:
-  imprimir a mensagem de erro na tela e encerrar o programa
 ---
 
-### Tratamento de Exceções
-```[1-4|5-7|9-16|18-27]
-class Pessoa:
-    def __init__(self, nome=''):
-        self._nome = nome
-
-    @property
-    def nome(self):
-        return self._nome
-
-    @nome.setter
-    def nome(self, x):
-        '''x deve ser do tipo str'''
-        if type(x) == str:
-            self._nome = x
-        else:
-            raise TypeError('Exceção: x precisa ser do tipo str')
-
-if __name__ == '__main__':
-    p = Pessoa()
-    try:
-        n = 3
-        p.nome = n # irá levantar erro, já que n não é do tipo str
-    except: # cláusula de tratamento de erros:
-        print('Ocorreu um erro na leitura dos dados') 
-        print('Atribuindo nome em branco') # atribui um nome padrão para pessoa
-        p.nome = 'sem nome'
-    print(f'Nome: {p.nome}')
-```
-
-`TypeError`: Tipo de exceção que denota, dentre outras coisas, um parâmetro com tipo não válido
-
----
 ### Try e Except
 
 - A cláusula `try` contém um bloco de código que _pode_ levantar exceções. Ela __tenta__
@@ -171,60 +112,6 @@ try:
   ...
 except: 
     #tratamento
-```
----
-
-### Exceções não Tratadas
-
-- Ao levantar uma exceção com ```raise```, a função/método
-  não a trata
-- Para tratá-la, o código que realiza a chamada à função
-  deve fazer isto em um bloco `try`
-- Caso nenhuma parte do programa trate uma exceção
-  levantada sucessivamente, o Python executa o tratamento padrão
----
-
-### Implementando Classes para Exceções
-
-- É possível definir classes para representar exceções do
-domínio do problema
-- Para isto, basta definir uma nova classe com o nome da
-exceção e fazê-la herdar de `Exception`
-- Como tudo que é necessário já está em `Exception`,
-o corpo da classe deve ser vazio
-
-```
-class MinhaExcecao(Exception):
-    pass
-```
----
-
-### Implementando Classes para Exceções
-
-Uma boa prática é:
-
-- Definir uma classe de exceção quer será a exceção base para o seu programa
-- Definir erros específicos, que acontecem no domínio do problema em questão, utilizando a classe base anterior como o topo da hierarquia (todos os erros herdam dela)
-- Desta forma, exceções específicas ao domínio do problema podem ser capturadas
----
-
-### Implementando Classes para Exceções
-
-```
-class ErroBasePessoa(Exception):
-    pass
-
-class ErroNome(ErroBasePessoa):
-    pass
-
-class Pessoa:
-
- @nome.setter
-    def nome(self, x):
-        if type(x) == str:
-            self._nome = x
-        else:
-            raise ErroNome('Excecao: x precisa ser do tipo str')
 ```
 ---
 
