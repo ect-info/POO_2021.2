@@ -102,10 +102,12 @@ Anotações e exercícios da aula (Jupyter notebook) [17-Heranca-Multipla.ipynb]
 
 Anotações e exercícios da aula (Jupyter notebook) [19a-Excecoes.ipynb](./19a-excecoes/19a-Excecoes.ipynb)
 
-<!--
+## [20a - 19/01 - Prática 3.1a (Jupyter notebook)](./20a-excecoes_pratica/20a-Excecoes_Pratica.ipynb)
 
-## [13b - 16/08 - Arquivos (Jupyter notebook)](./13b-arquivos/13b-Arquivos.ipynb)
- - **Prática EaD** a ser entregue até as 23:59 do dia 22/08
+## [20b - 19/01 - Arquivos (Jupyter notebook)](./20b-arquivos/20b-Arquivos.ipynb)
+ - **Prática EaD** a ser entregue até as 23:59 do dia 21/01
+
+<!--
 
 ## [14a - 23/08 - Interfaces Gráficas](./14a-gui)
 - Interfaces gráficas em Python com Tkinter
