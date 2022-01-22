@@ -95,7 +95,7 @@ Anotações e exercícios da aula (Jupyter notebook) [17-Heranca-Multipla.ipynb]
 
 ## [18 - 12/01 - Prática 2.4 (Jupyter notebook)](./18-heranca-multipla_pratica/18-Heranca-Multipla_Pratica.ipynb)
 
-## [19a - 17/01 - Erros e Exceções](./19a-excecoes)
+## [19 - 17/01 - Erros e Exceções](./19-excecoes)
  - Erros e exceções
  - Tratamento de erros
  - Definição de exceções
@@ -107,18 +107,17 @@ Anotações e exercícios da aula (Jupyter notebook) [19a-Excecoes.ipynb](./19a-
 ## [20b - 19/01 - Arquivos (Jupyter notebook)](./20b-arquivos/20b-Arquivos.ipynb)
  - **Prática EaD** a ser entregue até as 23:59 do dia 21/01
 
-<!--
-
-## [14a - 23/08 - Interfaces Gráficas](./14a-gui)
+## [21 - 24/01 - Interfaces Gráficas](./21-gui)
 - Interfaces gráficas em Python com Tkinter
 - Componentes (widgets):
 - *label*
 - *frame*
 - *entry*
 - *button*
-- *listbox*
 
-Anotações e exercícios da aula (Jupyter notebook) [14a-GUI.ipynb](./14a-gui/14a-GUI.ipynb)
+Anotações e exercícios da aula (Jupyter notebook) [21-GUI.ipynb](./21-gui/21-GUI.ipynb)
+
+<!--
 
 ## [14b - 23/08 - Padrão de Projeto MVC (Jupyter notebook)](./14b-mvc/14b-MVC.ipynb)
  - **Prática EaD** a ser entregue até as 23:59 do dia 29/08
