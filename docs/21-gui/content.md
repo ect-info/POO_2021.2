@@ -58,4 +58,4 @@ Desenvolver uma interface gráfica envolve:
     - Orientação a objetos facilita esta modularização
 ---
 
-[Jupyter notebook](./14a-GUI.ipynb)
+[Jupyter notebook](./21-GUI.ipynb)
