@@ -122,10 +122,10 @@ Anotações e exercícios da aula (Jupyter notebook) [21-GUI.ipynb](./21-gui/21-
 ## [22b - 26/01 - Padrão de Projeto MVC (Jupyter notebook)](./22b-mvc/22b-MVC.ipynb)
  - **Prática EaD** a ser entregue até as 23:59 do dia 28/01
 
-<!--
-
-## [15 - 29/08 - Projeto Final 1(Jupyter notebook)](./15-projeto_final1/15-Projeto_Final_parte1.ipynb)
+## [23 - 31/01 - Projeto Final 1(Jupyter notebook)](./23-projeto_final1/23-Projeto_Final_parte1.ipynb)
 - Implementação do projeto final -- parte 1
+
+<!--
 
 ## [16 - 06/09 - Projeto Final 2(Jupyter notebook)](./16-projeto_final2/16-Projeto_Final_parte2.ipynb)
 - Implementação do projeto final -- parte 2
