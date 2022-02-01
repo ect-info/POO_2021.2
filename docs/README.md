@@ -125,9 +125,5 @@ Anotações e exercícios da aula (Jupyter notebook) [21-GUI.ipynb](./21-gui/21-
 ## [23 - 31/01 - Projeto Final 1(Jupyter notebook)](./23-projeto_final1/23-Projeto_Final_parte1.ipynb)
 - Implementação do projeto final -- parte 1
 
-<!--
-
-## [16 - 06/09 - Projeto Final 2(Jupyter notebook)](./16-projeto_final2/16-Projeto_Final_parte2.ipynb)
+## [24 - 02/02 - Projeto Final 2(Jupyter notebook)](./24-projeto_final2/24-Projeto_Final_parte2.ipynb)
 - Implementação do projeto final -- parte 2
-
--->
